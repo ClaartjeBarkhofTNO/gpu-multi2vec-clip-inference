@@ -1,4 +1,9 @@
 # multi2vec-clip-inference
+
+### Claartje's build command
+`docker build . -f gpu.Dockerfile --build-arg="TEXT_MODEL_NAME=sentence-transformers/clip-ViT-B-32-multilingual-v1" --build-arg="CLIP_MODEL_NAME=clip-ViT-B-32" --tag="gpu-multi2vec-clip-inference"`
+
+
 The inference container for the clip module
 
 ## Documentation
