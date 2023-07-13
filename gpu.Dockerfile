@@ -2,9 +2,6 @@ FROM nvidia/cuda:11.7.0-cudnn8-runtime-ubuntu22.04
 
 WORKDIR /app
 
-# RUN apt-get update
-# RUN pip install --upgrade pip setuptools
-
 # Installs Python 3.10 which is what we need
 RUN apt-get update && apt-get install -y python3 python3-pip python3-wheel python3-setuptools
 
